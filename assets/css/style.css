@@ -1,0 +1,530 @@
+ 
+ *,
+ *:before,
+ *:after {
+   box-sizing: border-box;
+   margin: 0 auto;
+
+  
+ }
+
+ /* css zawgyi unicode conventer end */
+@font-face {
+  font-family: 'Zawgyi-One';
+  /* src: {{asset('/fonts/Zawgyi-One_V3.1.ttf')}}, IE9 Compat Modes */
+  src: url('https://mmwebfonts.comquas.com/fonts/?font=zawgyi')format(‘embedded-opentype’), IE6-IE8
+  url('https://mmwebfonts.comquas.com/fonts/?font=zawgyi') format(‘woff’), /* Modern Browsers */
+  url('https://mmwebfonts.comquas.com/fonts/?font=zawgyi'), /* Safari, Android, iOS */
+  url('https://mmwebfonts.comquas.com/fonts/?font=zawgyi') format(‘svg’); /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+  
+  }
+   body{font-family:'Zawgyi-One'!important;}
+  
+  @font-face {
+  font-family: 'Myanmar3';
+  src: url('https://mmwebfonts.comquas.com/fonts/?font=myanmar3'); /* IE9 Compat Modes */
+  src: url('https://mmwebfonts.comquas.com/fonts/?font=myanmar3') format(‘embedded-opentype’), /* IE6-IE8 */
+  url('https://mmwebfonts.comquas.com/fonts/?font=myanmar3') format(‘woff’), /* Modern Browsers */
+  url('https://mmwebfonts.comquas.com/fonts/?font=myanmar3') format(‘truetype’), /* Safari, Android, iOS */
+  url('https://mmwebfonts.comquas.com/fonts/?font=myanmar3') format(‘svg’); /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+  
+  }
+  
+   body{font-family:'Myanmar3'!important;}
+  
+  /* css zawgyi unicode conventer end */
+     /* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance:textfield !important;
+}
+
+ .el-avatar>img {
+   width:60px;
+ }
+ .el-menu-item {
+   padding:0 2px;
+   text-align: center;
+   line-height: 44px !important;
+ }
+ .el-menu-item  {
+   color:#000 !important;
+    background:unset !important;
+ }
+ .el-main {
+   margin-top:-1px !important;
+   text-align: center;
+ }
+ .el-menu-demo  {
+   display: flex;
+ }
+ .main_container {
+   max-width:480px;
+   width:100%;
+ }
+
+
+  .run_bar .slide_inner_icon {
+     width:20px;
+     height: auto;
+     padding:0;
+     margin:0;
+  }
+  .run_bar {
+    color: goldenrod;
+    font-size: 14px;
+    opacity: 0.95;
+    text-align: left;
+    padding:0 10px;
+    position:relative;
+   
+    bottom:38px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    z-index: 2;
+    background: rgba(25, 61, 26, 0.705);
+    margin: 0;
+  }
+
+  .el-carousel__button {
+      width:9px !important;
+      height:9px !important;
+      border-radius: 50px !important;
+      position:relative;
+      bottom:18px;
+  }
+  .el-carousel--horizontal {
+    overflow:hidden;
+  }
+  .el-page-header__left {
+    margin:0;
+  }
+  .el-carousel__item:nth-child(2n) {
+    background-color: #99a9bf;
+  }
+
+  .el-carousel__item:nth-child(2n+1) {
+    background-color: #d3dce6;
+  }
+  .number h2 {
+    color: #54B24F;
+    margin:0;
+    font-size: 95pt;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+
+}
+.number h2 span {
+  text-shadow: 0 11.36px 10.896px #c4b59d, 0 -2px 1px #fff;
+}
+.number::before {
+    display: block;
+    position: absolute;
+    top: 15px;
+    width: 2px;
+    height: 10;
+    background: #073e25e0;
+    height: 85px;
+    right: 0;
+    content: "";
+}
+.result_num {
+  color: #FEDC54 !important;
+  font-weight: bold;
+}
+@keyframes live_numer-animate { 
+  0% {
+      opacity: 0;
+      -webkit-opacity: 0;
+      animation-timing-function: ease-in;
+      -webkit-animation-timing-function: ease-in;
+  }
+  25% {
+    opacity: 1;
+    -webkit-opacity: 1;
+    animation-timing-function: ease-in;
+    -webkit-animation-timing-function: ease-in;
+  }
+  50% {
+    opacity: 1;
+    -webkit-opacity: 1;
+    animation-timing-function: ease-in;
+    -webkit-animation-timing-function: ease-in;
+  }
+  100% {
+    opacity: 1;
+    -webkit-opacity: 1;
+    animation-timing-function: ease-in;
+    -webkit-animation-timing-function: ease-in;
+  }
+}
+@-webkit-keyframes live_numer-animate {
+  0% {
+      -webkit-opacity: 0;
+      -webkit-animation-timing-function: ease-in;
+  }
+  25% {
+    opacity: 1;
+    -webkit-opacity: 1;
+    animation-timing-function: ease-in;
+    -webkit-animation-timing-function: ease-in;
+  }
+  50% {
+    opacity: 1;
+    -webkit-opacity: 1;
+    animation-timing-function: ease-in;
+    -webkit-animation-timing-function: ease-in;
+  }
+  100% {
+    opacity: 1;
+    -webkit-opacity: 1;
+    animation-timing-function: ease-in;
+    -webkit-animation-timing-function: ease-in;
+  }
+}
+/* @keyframes live_numer-animate {
+  0%   { opacity: 0; }
+  25%   { opacity: 1; }
+  50%   { opacity: 1; }
+  100% { opacity: 1; }
+} */
+.live_number {
+  -webkit-animation: live_numer-animate 3s infinite;
+  animation:         live_numer-animate 3s infinite;
+  animation-delay: 1s;
+  }
+@keyframes result_num-animate {
+  0%   { opacity: 0; }
+  25%   { opacity: 1; }
+  50%   { opacity: 1; }
+  100% { opacity: 1; }
+}
+.result_num {
+  -webkit-animation: result_num-animate 3s infinite;
+  animation:         result_num-animate 3s infinite;
+  animation-delay: 1s;
+  }
+
+
+.date_time .d_t_item span {
+    color:#5a5a5f;
+}
+/* .n_d_t {
+    margin:25px auto 0px auto;
+} */
+.card_one , .card_two{
+  
+   border-radius: 13px;
+   padding:20px;
+   margin:10px auto;
+   text-align: center;
+   -webkit-box-shadow: 1px 9px 20px -13px rgba(0,0,0,0.46); 
+    box-shadow: 1px 9px 20px -13px rgba(0,0,0,0.46);
+    background-image:
+    linear-gradient(#F34636, #F34636),
+    linear-gradient(270deg, #F34636, #F34636 50%, #F34636 100%);  
+}
+.card_three , .card_four {
+    border-radius: 13px;
+    padding:20px;
+    margin:10px auto;
+    text-align: center;
+    -webkit-box-shadow: 1px 9px 20px -13px rgba(0,0,0,0.46); 
+    box-shadow: 1px 9px 20px -13px rgba(0,0,0,0.46);
+    background-image:
+    linear-gradient(#F34636, #F34636),
+    linear-gradient(270deg, #F34636, #F34636 50%, #F34636 100%); 
+}
+.card_item h4 {
+    color:rgba(255, 255, 255, 0.856);
+    font-size: 15pt;
+    padding:0;
+    margin:3px auto;
+}
+.card_item span {
+  color:#fff;
+}
+.time_number {
+  color: #fff;
+  font-size: 16pt;
+  margin: 7px auto;
+  font-weight: bold;
+}
+    /* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance:textfield !important;
+}
+.card_three .time_number , .card_four .time_number {
+    position: relative;
+    top:10px;
+  }
+  .twod_card , .threed_card {
+    width:100%;
+    height:auto;
+  }
+  .bet_btn {
+    text-align: center;
+    margin-left: -20px;
+    display: block;
+    position: fixed;
+    bottom:40px;
+    max-width:480px;
+    width: 100%;
+    
+  }
+
+.longText{
+  max-width: 480px;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  /* text-align: justify; */
+}
+
+/*------THE TRICK------*/
+#hidingScrollBar{
+  overflow: hidden;
+}
+.hideScrollBar{
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  margin-left: 15px;
+  padding-right: 28px; /*This would hide the scroll bar of the right. To be sure we hide the scrollbar on every browser, increase this value*/
+  padding-top:60px;
+  padding-bottom: 180px; /*This would hide the scroll bar of the bottom if there is one*/
+}
+
+@media screen and (min-width:480px) {
+ .card_one , .card_two ,.card_three ,.card_four{
+   margin:10px auto;
+ }
+ .hideScrollBar {
+  margin-left:20px;
+}
+}
+@media screen and (max-width:768px) {
+  .refresh_icon img {
+    left:168px;
+  }
+  .hideScrollBar {
+   margin-left:15px;
+  }
+ }
+@media screen and (max-width:1024px) {
+  .hideScrollBar {
+   margin-left:16px;
+  }
+ }
+
+@media screen and (max-width:400px) {
+
+  .card_item h4 {
+    font-size:13pt;
+  }
+  .time_number {
+    font-size: 15pt;
+  }
+  .hideScrollBar {
+    margin-left:13px;
+  }
+  .refresh_icon img {
+    left:150px;
+  }
+
+
+}
+@media screen and (max-width:400px) {
+  /* .avatar_text {
+    padding:0;
+  } */
+  .date_time .d_t_item span {
+    font-size: 10pt;
+  }
+  .bet_container .el-dialog {
+    width:92% !important;
+  }
+
+}
+@media screen and (max-width:350px) { 
+  .refresh_icon img {
+    left:130px;
+  }
+}
+@media screen and (min-width:460px) {
+  .bet_container .el-dialog {
+    width:57% !important;
+  }
+
+
+}
+
+@media screen and (min-width:1024px) {
+  .bet_container .el-dialog {
+    width:40% !important;
+  }
+  
+
+}
+.main_header {
+  text-align: right;
+  margin:0;
+  padding:0;
+}
+.main_header li {
+  list-style: none;
+  padding:0 10px;
+  display: inline-block;
+}
+.header {
+  background:#FFEB3C;
+  position: fixed;
+  top:0;
+  max-width: 480px;
+  width:100%;
+  line-height: 39px;
+  z-index: 1;
+ 
+}
+.card_item .el-divider--horizontal {
+  margin:0 auto 10px auto;
+  background-color:#dd889a;
+}
+.date_time {
+  text-align: center;
+}
+.logo_text {
+  text-align: left;
+  padding-left:20px;
+}
+.logo_text span {
+  color:#000002;
+  font-weight: 500;
+}
+.threed_text {
+  cursor: pointer;
+  color:#006CF1;
+  font-size: 23px;
+  font-weight: bold;
+}
+.result_icon {
+  cursor: pointer;
+  width:30px;
+  position: relative;
+  top:-5px;
+  height: auto;
+}
+.icon_more i {
+  font-size: 21px;
+  transform:rotate(90deg);
+  -ms-transform:rotate(90deg);
+  -webkit-transform:rotate(90deg);
+}
+.date_picker_search {
+  position:absolute;
+  top:7px;
+  right:74px;
+  z-index: 999;
+}
+.el-icon-check {
+  color:#54B24F;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  top:3px;
+}
+.twod_home .el-avatar {
+  background: none;
+}
+.demo-type {
+  cursor: pointer;
+  text-align: left;
+  padding:10px 0;
+}
+.avatar_text_logout {
+  position: relative;
+  bottom:25px;
+  color:#000;
+  font-weight: bold;
+}
+.twod_home .el-dialog {
+  max-width: 480px;
+  width:90%;
+} 
+.login_btn {
+  width:100%;
+}
+.twod_home .el-button.is-round {
+  background-color: #FEDC54;
+  color:#000;
+  
+}
+.el-popover {
+  min-width: 100px !important;
+
+}
+.el-button--text {
+  color:#000 !important;
+}
+.el-message {
+  min-width: 300px !important;
+}
+.el-message.is-center {
+  -webkit-box-pack:unset !important;
+}
+.el-message .el-icon-error {
+  margin:0 !important;
+  padding-right:20px !important;
+}
+.el-notification .el-icon-success {
+  margin: 0 !important;
+  padding-right: 50px !important;
+}
+.el-message .el-icon-info {
+  margin:0 10px;
+}
+.el-message .el-icon-warning {
+  margin:0 10px;
+}
+.el-notification .el-icon-warning {
+  margin:0 10px;
+}
+.refresh_icon {
+  width:40px;
+  height: auto;
+  float: right;
+  position: relative;
+  bottom:61px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
