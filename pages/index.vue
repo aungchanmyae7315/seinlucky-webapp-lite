@@ -1,5 +1,4 @@
-<template>
-        
+<template>  
         
        <section class="main_page twod_home">
         <!-- <Online></Online> -->
